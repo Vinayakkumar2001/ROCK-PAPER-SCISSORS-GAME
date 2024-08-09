@@ -67,3 +67,57 @@ img{
     border-radius: 1rem;
     padding: 8px;
 }
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        height: 3rem;
+        line-height: 3rem;
+        font-size: 1.5rem;
+    }
+
+    .choice {
+        height: 100px;
+        width: 100px;
+        border-radius: 15%;
+    }
+
+    img {
+        height: 90px;
+        width: 90px;
+    }
+
+    .choices {
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 3rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .score-board {
+        flex-direction: column;
+        gap: 2rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    #user-score, #comp-score {
+        font-size: 2.5rem;
+    }
+
+    .msg-container {
+        margin-top: 3rem;
+    }
+
+    #msg {
+        font-size: 2rem;
+        padding: 8px;
+    }
+
+    #reset-btn {
+        font-size: 1.5rem;
+        padding: 6px;
+    }
+}
